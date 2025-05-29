@@ -1,7 +1,7 @@
 import data
 import helpers
 
-
+# tarefa 3
 class TestUrbanRoutes:
     @classmethod
     def setup_class(cls):
@@ -40,12 +40,14 @@ class TestUrbanRoutes:
             print("função criada para definir a ordem de pedido de cobertor e lenços")
     pass
 
-    def test_order_2_ice_creams(self):
-            # Adicionar em S8
-            print("função criada para a ordem de sorvetes e refrigerantes")
-    pass
-
     def test_car_search_model_appears(self):
             # Adicionar em S8
             print("função criada para mostrar o modelo do carro na tela de pesquisa")
+    pass
+
+ # tarefa 5
+    def test_order_2_ice_creams(self):
+            # Adicionar em S8
+            for ice_cream in range(2):
+                print("função criada para a ordem de sorvetes e refrigerantes")
     pass
